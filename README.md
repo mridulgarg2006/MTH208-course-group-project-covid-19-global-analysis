@@ -4,7 +4,7 @@ An interactive R Shiny web application analyzing pandemic outcomes across 200+ c
 
 **Course**: MTH208 - Data Science Lab 1 | **Institution**: IIT Kanpur | **Duration**: July - November 2025
 
-## 🎯 Project Overview
+##  Project Overview
 
 This Shiny dashboard explores critical questions about the COVID-19 pandemic:
 - How does testing intensity affect case detection rates?
@@ -14,7 +14,7 @@ This Shiny dashboard explores critical questions about the COVID-19 pandemic:
 
 The application combines real-time data exploration with statistical rigor, demonstrating advanced data science techniques in a production-ready interactive format.
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -24,7 +24,7 @@ The application combines real-time data exploration with statistical rigor, demo
 | **Visualization** | ggplot2, plotly | Static & interactive plots |
 | **Statistical Analysis** | corrplot, base R | Correlation matrices, outlier detection |
 
-## 📁 Repository Structure
+##  Repository Structure
 MTH208-course-group-project-covid-19-global-analysis
 /
 │
@@ -41,7 +41,7 @@ MTH208-course-group-project-covid-19-global-analysis
  └── population_category_analysis.csv # Analysis stratified by population size
 
  
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - **R** (version 4.0 or higher) - [Download here](https://cran.r-project.org/)
@@ -65,7 +65,7 @@ library(shiny)
 runApp("app.R")
 
 
-## 🔍 Key Insights Discovered
+##  Key Insights Discovered
 
 ### Statistical Findings
 
