@@ -24,23 +24,7 @@ The application combines real-time data exploration with statistical rigor, demo
 | **Visualization** | ggplot2, plotly | Static & interactive plots |
 | **Statistical Analysis** | corrplot, base R | Correlation matrices, outlier detection |
 
-##  Repository Structure
-MTH208-course-group-project-covid-19-global-analysis
-/
-│
-├── app.R # Main Shiny application (run this!)
-├── README.md # This file
-├── REPORT-1-2.pdf # Detailed statistical report
-│
-├── Code/ # R scripts for data processing
-│ └── cleaning_eda.R # Data cleaning & exploratory analysis
-│
-├── Data/ # Processed datasets
- ├── covid_analysis.csv # Main analysis dataset (200+ countries)
- ├── covid_countries.csv # Country-level summary statistics
- └── population_category_analysis.csv # Analysis stratified by population size
 
- 
 ##  Quick Start Guide
 
 ### Prerequisites
@@ -54,13 +38,13 @@ MTH208-course-group-project-covid-19-global-analysis
 git clone https://github.com/mridulgarg2006/covid-19-shiny-dashboard.git
 cd MTH208-course-group-project-covid-19-global-analysis
 
-2. Install required R packages
+**### 2. Install required R packages**
 # Copy and paste into R console:
 packages <- c("shiny", "tidyverse", "dplyr", "tidyr", "ggplot2", 
               "plotly", "DT", "corrplot", "readr")
 install.packages(packages)
 
-3. Run the application
+**###3. Run the application**
 library(shiny)
 runApp("app.R")
 
